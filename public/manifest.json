@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Force Picture-in-Picture",
+  "description": "An Extension to force Picture-in-Picture on any currently playing video",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting"
+ ],
+ "background": {
+    "service_worker": "background.js"
+ }
+}
